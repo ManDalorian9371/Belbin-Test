@@ -341,7 +341,7 @@ function sendEmails(){
 		Host: 'smtp.gmail.com',
 		Username: 'hopestartsagain@gmail.com',
 		Password: 'e1561373',
-		To: 'hopestartsagain@gmail.com',
+		To: 'mokhtarrafati@gmail.com',
 		From: `hopestartsagain@gmail.com`,
 
 		Subject: `${userFirstNameLocal} ${userLastNameLocal}`,
