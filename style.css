@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(rgb(203, 212, 227), rgb(181, 201, 202));
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h2 {
+	margin: 2px;
+	align-self: center;
+}
+.headerforinput {
+	width: fit-content;
+	margin: 0;
+	padding-left: 66px;
+	padding-bottom: 0;
+	font-size: 10px;
+}
+strong {
+	text-align: right;
+}
+ul li {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+	text-align: right;
+	margin: 0 0 12px 0;
+	font-size: 18px;
+	background-color: rgb(238, 241, 254);
+	border-radius: 10px;
+	padding: 3px;
+	box-shadow: 1px 1px 2px 2px rgba(96, 73, 135, 0.8);
+}
+ul li section {
+	font-weight: bold;
+	align-self: flex-start;
+}
+ul input {
+	cursor: pointer;
+	align-self: flex-start;
+	max-width: 20vw;
+	padding-top: 0;
+}
+.container {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 5px rgba(0, 0, 0, 0.1);
+
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 25px;
+	margin: 20px;
+	position: relative;
+	text-align: right;
+}
+.container > * {
+	gap: 0.5rem;
+}
+ul {
+	align-self: center;
+	list-style-type: none;
+	padding: 0;
+	min-height: 70%;
+}
+button {
+	background-color: rgb(21, 138, 39);
+	display: block;
+	font-family: inherit;
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.5rem;
+	color: white;
+	cursor: pointer;
+}
+button:disabled {
+	background-color: rgb(136, 136, 136);
+	cursor: not-allowed;
+}
+button:disabled:hover,
+button:disabled:focus {
+	background-color: rgb(136, 136, 136);
+}
+button:hover {
+	background-color: rgb(19, 105, 32);
+}
+button:focus {
+	background-color: rgb(12, 78, 22);
+}
+footer {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+	margin-bottom: 5px;
+}
+footer h6 {
+	margin: 0;
+	align-self: center;
+	padding-right: 10px;
+	font-size: 20px;
+	color: blueviolet;
+	text-shadow: 4px 2px 50px 30px rgba(0, 0, 0);
+	width: fit-content;
+}
+footer #labelOfSum {
+	width: fit-content;
+	align-self: center;
+	font-weight: bold;
+	color: rgb(43, 16, 68);
+}
+#emailBtn {
+	background-color: rgb(21, 138, 39);
+	display: block;
+	font-family: inherit;
+	width: 100%;
+	padding: 1rem;
+	font-size: 1.5rem;
+	color: white;
+	cursor: pointer;
+}
+#emailBtn:disabled {
+	background-color: rgb(136, 136, 136);
+	cursor: not-allowed;
+}
+#emailBtn:disabled:hover,
+#emailBtn:disabled:focus {
+	background-color: rgb(136, 136, 136);
+}
+#emailBtn:hover {
+	background-color: rgb(19, 105, 32);
+}
+#emailBtn:focus {
+	background-color: rgb(12, 78, 22);
+}
+
+#emailInput,
+#userFirstName,
+#userLastName {
+	width: 180px;
+	font-size: 15px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 5px;
+	background-color: rgb(250, 239, 227);
+}
+#emailInput:focus,
+#userFirstName:focus,
+#userLastName:focus {
+	background-color: rgb(247, 215, 180);
+}
+
+.infoLabels {
+}
+.informations {
+	display: none;
+	margin-bottom: 20px;
+}
+.rahnama {
+	display: block;
+	line-height: 2rem;
+	padding: 5px 20px 5px 20px;
+}
+.informations > section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 10px 0;
+}
+
+table {
+	width: 90%;
+	height: 90%;
+	text-align: center;
+	border: 2px solid rgb(15, 15, 78);
+	margin: 35px 10px 10px 10px;
+	background-image: linear-gradient(rgb(94, 147, 168), rgb(102, 83, 176));
+	box-shadow: -1px 2px 3px 10px rgba(0, 0, 0, 0.5);
+	color: rgb(246, 228, 205);
+}
+td,
+th {
+	border: 2px solid rgb(10, 10, 85);
+}
+
+th {
+	background-image: linear-gradient(rgb(159, 24, 163), rgb(75, 10, 37));
+}
+@media screen and (max-width: 600px) {
+	.headerforinput {
+		padding-left: 41px;
+	}
+}
