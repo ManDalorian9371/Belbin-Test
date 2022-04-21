@@ -29,5 +29,6 @@ function catchEmail(){
 	localStorage.setItem('userFirstName', userFirstName.value);
 	localStorage.setItem('userLastName', userLastName.value);
 	console.log(localStorage.getItem('email'));
+
 	window.open('index2.html', '_self');
 }
